@@ -207,17 +207,30 @@
   width: 1440px;
   height: 1022px;
   margin: 0 auto;
+  position: relative;
   /* gap: 40px; */
 }
 .roadmap-frame {
   flex-direction: column;
   gap: 28px;
 }
+.destination-of-our-agency {
+  font: Inter;
+  font-size: 42px;
+}
+.pack-your-bags-and-get-ready {
+  font: inter;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  color: #18181bb2;
+}
 .container {
   display: flex;
   gap: 40px;
-  border: 1px solid red;
-  position: relative;
+  /* border: 1px solid red; */
+
+  top: 40px;
 }
 .right {
   width: 600px;
@@ -234,7 +247,7 @@
   align-items: center;
   justify-content: space-between;
   height: 112px;
-  border: 8px solid transparent;
+  border: 4px solid transparent;
 }
 /* .location-button1:hover {
   border-color: 3px solid white;
@@ -248,7 +261,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 8px solid transparent;
+  border: 4px solid transparent;
 }
 .location-buttom3 {
   height: 112px;
@@ -260,7 +273,7 @@
   align-items: center;
   padding-inline: 30px;
   justify-content: space-between;
-  border: 8px solid transparent;
+  border: 4px solid transparent;
 }
 .location-buttom4 {
   /* height: fit-content; */
@@ -272,7 +285,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 8px solid transparent;
+  border: 4px solid transparent;
 }
 .location-buttom5 {
   height: 112px;
@@ -283,7 +296,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 8px solid transparent;
+  border: 4px solid transparent;
 }
 .day {
   background-color: white;
@@ -339,17 +352,17 @@
   width: 246px;
   height: 246px;
   display: none;
+  position: absolute;
+  right: 150px;
+  top: 300px;
 }
 
 .location-button1:hover + .icon-sukhbaatar {
   display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-  border-color: 3px solid white;
+  border-color: 4px solid white;
 }
 .location-button1:hover {
-  border: 8px solid white;
+  border: 4px solid white;
 }
 .flex-column {
   display: flex;
@@ -359,26 +372,26 @@
   display: block;
 }
 .location-buttom2:hover {
-  border: 8px solid white;
+  border: 4px solid white;
 }
 
 .location-buttom3:hover + .icon-khorgiin-togoo {
   display: block;
 }
 .location-buttom3:hover {
-  border: 8px solid white;
+  border: 4px solid white;
 }
 .location-buttom4:hover + .icon-terkhiin-tsagaan-nuur {
   display: block;
 }
 .location-buttom4:hover {
-  border: 8px solid white;
+  border: 4px solid white;
 }
 .location-buttom5:hover + .icon-khuwsgul-dalai {
   display: block;
 }
 .location-buttom5:hover {
-  border: 8px solid white;
+  border: 4px solid white;
 }
 .price-button1 {
   width: 384px;
