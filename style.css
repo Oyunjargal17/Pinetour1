@@ -6,14 +6,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-.hero-section {
+/* .hero-section {
   height: 100vh;
-}
+} */
+ /* ==================================== */
+ /* Эндээс эхний хэсэг эхлэж байна. */
+ /* ======================================== */
 .hero-section-image {
   background-image: url("./images/heroImage.png");
   width: 1440px;
   height: 773px;
-  /* background-position: center; */
   background-size: cover;
   margin: 0 auto;
 }
@@ -35,14 +37,10 @@
   width: 1064px;
   margin: 0 auto;
 }
-.header img {
-  height: 34px;
-  width: 100px;
-}
 .menu-items {
   font-family: inter;
   color: white;
-  font-size: 18px;
+  font-size: 18px;               
   gap: 24px;
 }
 .lang {
@@ -51,10 +49,9 @@
   background-color: white;
   border-radius: 100%;
   font-size: 14px;
-  font: inter;
+  font-family: inter;
 }
-.pure-magic {
-}
+
 .hero-text1 {
   display: flex;
   color: rgba(232, 237, 242, 0.72);
@@ -78,6 +75,21 @@
   align-items: center;
   justify-items: center;
 }
+.hero-text3 {
+  display: flex;
+  color: rgba(232, 237, 242, 0.72);
+  width: 618px;
+  font-size: 80px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Bebas Neue;
+  justify-items: center;
+}
+/* <!-- ============================================== -->
+    Эндээс хоёрдахь хэсэг эхлэж байна. 
+<!-- ==============================================  --> */
 .flex1 {
   display: flex;
   justify-content: center;
@@ -86,57 +98,22 @@
   align-content: center;
   flex-direction: column;
 }
-.location-section {
-  height: 100vh;
-  /* width: 1064px;
-  margin: 0 auto; */
-}
-.price-section {
-  margin-top: 150px;
-  gap: 32px;
-  margin-left: 120px;
-  margin-right: 120px;
-  justify-content: space-between;
-}
-
 .location-section-background {
   background-image: url("./images/location.png");
-  background-position: center;
   background-size: cover;
   height: 500px;
   width: 1440px;
   margin: 0 auto;
-  gap: 50px;
 }
-.price-section-background {
-  background-image: url("./images/footer-background.png");
-  background-position: center;
-  background-size: center;
-  height: 1120px;
-  width: 1440px;
-  margin: 0 auto;
-  /* gap: 50px; */
-}
-.location-section-zuragnuud {
-  /* margin-top: 50px; */
-  position: relative;
-  width: 276px;
-  height: 370px;
 
+.location-section-zuragnuud {
+  position: relative;
+  width: 270px;
+  height: 370px;
   border-radius: 25px;
-}
-.amar-baysgalant-hiid {
-  position: relative;
-}
-.KHUWSGUL-DALAI {
-  position: relative;
-}
-.khorgiin-togoo {
-  position: relative;
+  margin: 0 15px;
 }
 .location-section-text-terhiin-tsagaan-nuur {
-  /* margin-top: 50px; */
-
   background-image: url("./images/terhiin-tsagaan-nuur.png");
   background-position: center;
   background-size: cover;
@@ -145,6 +122,7 @@
   height: 100%;
   width: 100%;
 }
+
 .location-section-text-amarbaysgalant-hiid {
   background-image: url("./images/amarbaysgalant-hiid.png");
   background-position: center;
@@ -154,6 +132,7 @@
   height: 100%;
   width: 100%;
 }
+
 .location-section-text-khuwusgul-dalai {
   background-image: url("./images/khuwsgul-dalai.png");
   background-position: center;
@@ -173,7 +152,6 @@
   box-shadow: -8px -8px #29728b40, 8px 8px #1f72aa75;
   background-color: red;
 }
-
 .location-section-text {
   position: absolute;
   color: white;
@@ -213,8 +191,10 @@
   border-radius: 120px;
   padding: 30px;
 }
-
-.roadmap-backround {
+/* ========================================= */
+  /* Эндээс гуравдахь хэсэг эхлэж байна. */
+/* ========================================== */
+  .roadmap-backround {
   background-image: url("./images/roadmap.png");
   height: 100vh;
   background-size: cover;
@@ -226,39 +206,37 @@
   height: 1022px;
   margin: 0 auto;
   position: relative;
-  /* gap: 40px; */
-}
-.roadmap-frame {
-  flex-direction: column;
-  gap: 28px;
-}
+ }
 .destination-of-our-agency {
-  font: Inter;
+  font-family: Inter;
   font-size: 42px;
 }
 .pack-your-bags-and-get-ready {
-  font: inter;
+  font-family: inter;
   font-size: 20px;
   display: flex;
   justify-content: center;
   color: #18181bb2;
 }
+.roadmap-frame {
+  flex-direction: column;
+  gap: 28px;
+}
+
 .container {
   display: flex;
+  width: 1200px;
+  height: 640px;
   gap: 40px;
-  /* border: 1px solid red; */
 }
-.right {
-  width: 600px;
-  height: 600px;
-  /* border: 1px solid red; */
-}
+
 .location-button1 {
   /* height: fit-content; */
   background-color: #eee9d9;
   border-radius: 120px;
-  /* gap: 50px; */
   padding-inline: 30px;
+  /* ================================ */
+  /* bagshaas asuuh */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -266,14 +244,11 @@
   border: 4px solid transparent;
   margin-top: 100px;
 }
-/* .location-button1:hover {
-  border-color: 3px solid white;
-} */
+
 .location-buttom2 {
   height: 112px;
   background-color: #8bb8c1cc;
   border-radius: 120px;
-  /* gap: 50px; */
   padding-inline: 30px;
   display: flex;
   align-items: center;
@@ -284,8 +259,6 @@
   height: 112px;
   background-color: #aad8d7cc;
   border-radius: 120px;
-  /* gap: 50px; */
-  /* padding: 40px; */
   display: flex;
   align-items: center;
   padding-inline: 30px;
@@ -293,11 +266,9 @@
   border: 4px solid transparent;
 }
 .location-buttom4 {
-  /* height: fit-content; */
   background-color: #8bc0bdcc;
   height: 112px;
   border-radius: 120px;
-  /* gap: 50px; */
   padding-inline: 30px;
   display: flex;
   align-items: center;
@@ -308,7 +279,6 @@
   height: 112px;
   background-color: #97cce0cc;
   border-radius: 120px;
-  /* gap: 50px; */
   padding-inline: 30px;
   display: flex;
   align-items: center;
@@ -364,7 +334,6 @@
 .gap-2 {
   gap: 2px;
 }
-
 .icon-sukhbaatar {
   width: 246px;
   height: 246px;
@@ -376,7 +345,6 @@
 
 .location-button1:hover + .icon-sukhbaatar {
   display: block;
-  border-color: 4px solid white;
 }
 .location-button1:hover {
   border: 4px solid white;
@@ -429,10 +397,7 @@
   height: 527px;
   background-color: #fafbfc;
   background-position: center;
-  /* background-size: cover; */
-  /* box-shadow: -8px -8px #29728b40, 8px 8px #1f72aa75; */
   border-radius: 25px;
-  /* display: flex; */
   justify-content: center;
   align-items: center;
   padding: 30px;
@@ -442,10 +407,7 @@
   height: 527px;
   background-color: #fafbfc;
   background-position: center;
-  /* background-size: cover; */
-  /* box-shadow: -8px -8px #29728b40, 8px 8px #1f72aa75; */
   border-radius: 25px;
-  /* display: flex; */
   justify-content: center;
   align-items: center;
   padding: 30px;
@@ -455,10 +417,7 @@
   height: 527px;
   background-color: #fafbfc;
   background-position: center;
-  /* background-size: cover; */
-  /* box-shadow: -8px -8px #29728b40, 8px 8px #1f72aa75; */
   border-radius: 25px;
-  /* display: flex; */
   justify-content: center;
   align-items: center;
   padding: 30px;
@@ -535,6 +494,7 @@
   padding-top: 4px;
   padding-left: 16px;
   padding-right: 16px;
+  justify-content: space-between;
 }
 .pin-ub {
   height: 34px;
@@ -551,10 +511,6 @@
   font-family: Montserrat;
   font-size: 18px;
   color: #6972b5;
-  /* padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-left: 20px; */
 }
 .button {
   width: 167px;
@@ -581,4 +537,20 @@
 .row {
   display: flex;
   justify-content: center;
+}
+
+.price-section {
+  margin-top: 150px;
+  gap: 32px;
+  margin-left: 120px;
+  margin-right: 120px;
+  justify-content: space-between;
+}
+.price-section-background {
+  background-image: url("./images/footer-background.png");
+  background-position: center;
+  background-size: center;
+  height: 1120px;
+  width: 1440px;
+  margin: 0 auto;
 }
