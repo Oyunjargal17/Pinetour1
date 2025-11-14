@@ -552,9 +552,9 @@ body {
   justify-content: space-between;
 }
 .price-section-background {
-  background-image: url("./images/footer-background.png");
+  background-image: url("./images/foother.png");
   background-position: center;
-  background-size: center;
+  background-size: cover;
   height: 1120px;
   width: 1440px;
   margin: 0 auto;
